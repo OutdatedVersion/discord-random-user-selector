@@ -10,5 +10,5 @@ jobs:
           username: OutdatedVersion
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: OutdatedVersion/discord-random-user-selector/discord-random-user-selector-bot
+          repository: outdatedversion/discord-random-user-selector/discord-random-user-selector-bot
           tag_with_sha: true
