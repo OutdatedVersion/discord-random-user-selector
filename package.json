@@ -1,0 +1,22 @@
+{
+  "name": "discord-random-user-selector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "@types/ws": "^7.2.5",
+    "typescript": "^3.9.5"
+  }
+}

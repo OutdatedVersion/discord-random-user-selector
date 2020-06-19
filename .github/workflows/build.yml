@@ -1,0 +1,14 @@
+name: build and push docker image
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: docker/build-push-action@v1
+        with:
+          username: OutdatedVersion
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: docker.pkg.github.com
+          repository: OutdatedVersion/discord-random-user-selector/discord-random-user-selector-bot
+          tag_with_sha: true
