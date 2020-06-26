@@ -12,5 +12,6 @@ A simple Discord bot to select a random user from a guild. Created because of [t
 
 - Docker
   - Find latest image from the list [here](https://github.com/OutdatedVersion/discord-random-user-selector/packages)
+    - primary branch (recommended): `docker.pkg.github.com/outdatedversion/discord-random-user-selector/discord-random-user-selector-bot:latest`
   - Example of setup in `docker-compose.yml`
     - Be sure to set `DISCORD_TOKEN` to a [Discord API token](https://discord.com/developers/applications).
