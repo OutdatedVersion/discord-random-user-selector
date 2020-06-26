@@ -12,3 +12,4 @@ jobs:
           registry: docker.pkg.github.com
           repository: outdatedversion/discord-random-user-selector/discord-random-user-selector-bot
           tag_with_sha: true
+          tag_with_ref: true
